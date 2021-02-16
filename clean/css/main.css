@@ -899,6 +899,7 @@ form {
     }
     .copyright {
         margin-left: 13%;
+	margin-top: 5%;
     }
 }
 
@@ -908,5 +909,8 @@ form {
     }
     .statistic-block {
         width: 170px;
+    }
+	.copyright {
+	margin-top: 3%;
     }
 }
