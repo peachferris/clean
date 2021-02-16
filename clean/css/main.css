@@ -4,7 +4,10 @@
     border: none;
     box-sizing: border-box;
 }
-
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}  
 body {
     font-family: 'Quicksand', sans-serif;
     color: #3d4f9f;
