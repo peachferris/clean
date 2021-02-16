@@ -812,6 +812,9 @@ form {
     .slider-container__second .slick-arrow.slick-next{
         background: none;
     }
+    .slider {
+        padding: 0;
+    }
     .slider .slick-dots button{
         font-size: 0;
         width: 5px;
