@@ -627,16 +627,25 @@ form {
 		display: none;
 		transition: all 0.3s ease;
 	}
-	
+	.button__item {
+		width: 50px;
+		height: 50px;
+		background-color: #3a79ff;
+        opacity: 0.5;
+		border-radius: 50%;
+		display: block;
+		position: relative;
+	}
 	.hamburger__span,
 	.hamburger__span::before,
 	.hamburger__span::after {
 		position: absolute;
 		top: 50%; margin-top: -1px;
 		left: 50%; margin-left: -10px;
+        margin-bottom: 1px;
 		width: 20px;
-		height: 3px;
-		background-color: #3a79ff;
+		height: 2px;
+		background-color: #fff;
         box-shadow:  #495274;
 	}
 	.hamburger__span::before,
@@ -666,8 +675,7 @@ form {
 		left: 0;
 		width: 100%;
 		height: 80%;
-		background-color: #3d4f9f;
-        
+		background-color: #3d4f9f;   
 		display: block;
 		overflow: auto;
 	}
@@ -677,7 +685,7 @@ form {
 	}
 	.nav-item {
 		margin: 5px 0;
-		padding: 25px 50px;
+		padding: 25px 80px;
 	}
 	.nav-item__list{
 		font-size: 18px;
@@ -795,8 +803,8 @@ form {
         margin-left: 8%;
     }
     .copyright {
-        margin-left: 10%;
-        margin-top: 25%;
+        margin-top: 30%;
+        margin-bottom: 5%;
     }
     .slider-container__second .slick-arrow.slick-prev{
         background: none;
@@ -870,7 +878,7 @@ form {
         margin-left: 8%;
     }
     .copyright {
-        margin-top: 40%;
+        margin-top: 50%;
     }
 }
 
@@ -899,7 +907,7 @@ form {
     }
     .copyright {
         margin-left: 13%;
-	margin-top: 5%;
+        margin-top: 45%;
     }
 }
 
@@ -910,7 +918,7 @@ form {
     .statistic-block {
         width: 170px;
     }
-	.copyright {
-        margin-top:3%;
+    .copyright {
+        margin-left: 13%;
     }
 }
