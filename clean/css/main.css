@@ -4,17 +4,17 @@
     border: none;
     box-sizing: border-box;
 }
-html {
-    overflow: scroll;
-    overflow-x: hidden;
-}  
+
 body {
     font-family: 'Quicksand', sans-serif;
     color: #3d4f9f;
     font-weight: 500;
     font-size: 15px;
 }
-
+html {
+    overflow-x:hidden; 
+    
+}
 h1 {
     font-size: 36px;
     text-align: left;
@@ -600,7 +600,7 @@ form {
 
 @media (max-width: 1024px) {
     .logo-container {
-        margin-left: -25%;
+        margin-left: -5%;
     }
     .button__main {
         margin-right: 3%;
@@ -829,7 +829,7 @@ form {
     .brands-container {
         display: inline-block;
         padding: 0;
-        margin-left: 45%;
+        margin-left: 43%;
         margin-right: 50%;
     }
     .functions-item h3 {
@@ -866,6 +866,7 @@ form {
     }
     .form-block {
         margin-left: 0;
+        padding: 6% 0;
     }
     .brands-item {
         margin-bottom: 15%;
