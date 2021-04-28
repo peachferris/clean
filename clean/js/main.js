@@ -27,8 +27,13 @@ $(document).ready(function() {
       slidesToShow: 1,
       slidesToScroll: 9,
     });
-  });
+});
 
+$(document).ready(function(){
+    $('.block__title').click(function(event) {
+        $(this).toggleClass('active').next().slideToggle(300);
+    });
+});
 
 
 const anchors = document.querySelectorAll('a[href*="#"]')
